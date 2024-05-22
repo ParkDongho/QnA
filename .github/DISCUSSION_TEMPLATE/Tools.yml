@@ -35,7 +35,6 @@ body:
     attributes:
       label: 3. Expected Behavior
       description: "예상되는 동작을 설명하세요."
-        ...
       render: bash
     validations:
       required: true
@@ -44,7 +43,6 @@ body:
     attributes:
       label: 4. Actual Behavior
       description: "실제로 발생한 동작을 설명하세요."
-        ...
       render: bash
     validations:
       required: true
