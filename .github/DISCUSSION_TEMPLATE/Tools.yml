@@ -25,7 +25,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: reproduce
     attributes:
       label: 2. Steps to reproduce
@@ -54,7 +54,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: additional_context
     attributes:
       label: 5. Additional context
