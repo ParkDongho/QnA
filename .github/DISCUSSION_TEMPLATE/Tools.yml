@@ -39,7 +39,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: expected
+    id: actual
     attributes:
       label: 4. Actual Behavior
       description: "실제로 발생한 동작을 설명하세요."
