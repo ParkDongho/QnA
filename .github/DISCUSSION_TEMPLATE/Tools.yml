@@ -5,6 +5,7 @@ body:
     attributes:
       value: |
         This is text that will show up in the template!
+        
   - type: textarea
     id: description
     attributes:
@@ -13,6 +14,7 @@ body:
       render: bash
     validations:
       required: true
+      
   - type: textarea
     id: environment
     attributes:
@@ -25,7 +27,8 @@ body:
       render: bash
     validations:
       required: true
-  - type: markdown
+      
+  - type: textarea
     id: reproduce
     attributes:
       label: 2. Steps to reproduce
@@ -38,6 +41,7 @@ body:
       render: bash
     validations:
       required: true
+      
   - type: textarea
     id: expected
     attributes:
@@ -46,6 +50,7 @@ body:
       render: bash
     validations:
       required: true
+      
   - type: textarea
     id: actual
     attributes:
@@ -54,7 +59,8 @@ body:
       render: bash
     validations:
       required: true
-  - type: markdown
+      
+  - type: textarea
     id: additional_context
     attributes:
       label: 5. Additional context
