@@ -46,3 +46,11 @@ body:
       render: bash
     validations:
       required: true
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 5. Additional context
+      description: "문제 해결을 위해 추가적인 맥락이나 정보가 필요하다면 여기에 작성하세요."
+      render: bash
+    validations:
+      required: false
