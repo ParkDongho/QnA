@@ -1,0 +1,60 @@
+title: "[HDL] "
+labels: ["General Introduction"]
+body:
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "문제에 대한 간략한 설명을 작성하세요."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: environment
+    attributes:
+      label: 1. Environment
+      description: "describe your environment"
+      value: |
+        OS: 운영 체제 및 버전 (예: Ubuntu 20.04)
+        Tools: 
+        ...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 2. Steps to reproduce
+      description: "문제를 재현하기 위한 단계를 설명하세요."
+      value: |
+        1. 문제를 재현하기 위한 첫 번째 단계
+        2. 두 번째 단계
+        3. 세 번째 단계 (필요 시 추가)
+        ...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: 3. Expected Behavior
+      description: "예상되는 동작을 설명하세요."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: actual
+    attributes:
+      label: 4. Actual Behavior
+      description: "실제로 발생한 동작을 설명하세요."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 5. Additional context
+      description: "문제 해결을 위해 추가적인 맥락이나 정보가 필요하다면 여기에 작성하세요."
+    validations:
+      required: false
